@@ -13,7 +13,7 @@ const Section = styled.div`
   justify-content: space-between;
 
   @media only screen and (max-width: 768px) {
-    height: 200vh;
+    // height: 200vh;
   }
 `;
 
@@ -42,6 +42,7 @@ const Left = styled.div`
   @media only screen and (max-width: 768px) {
     flex: 1;
     align-items: center;
+    padding:20px;
   }
 `;
 
@@ -91,8 +92,9 @@ const Right = styled.div`
   flex: 3;
   position: relative;
   @media only screen and (max-width: 768px) {
-    flex: 1;
-    width: 100%;
+    // flex: 1;
+    // width: 100%;
+    display:none;
   }
 `;
 
